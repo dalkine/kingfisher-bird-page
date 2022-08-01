@@ -4,9 +4,64 @@ body {
   margin: 0;
   padding: 0;
 }
-.section1 {
-  background-color: aqua;
+/*-------------------------------------------------------------------*/
+/*---------------------------header----------------------------------*/
+.header {
+  background-color: #0c3e57;
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 12px;
 }
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+ul {
+  display: flex;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+  padding: 12px;
+  margin: 8px;
+}
+
+/*---------------------------section1----------------------------------*/
+.section1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+}
+
+img {
+  height: auto;
+  width: 400px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 24px;
+  width: 400px;
+  height: auto;
+}
+h2 {
+  font-size: 24px;
+}
+button {
+  height: 48px;
+  width: 96px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  background-color: blue;
+  border: 1px solid royalblue;
+}
+/*---------------------------------------------------------------------*/
 .section2 {
   background-color: chocolate;
 }
