@@ -1,4 +1,5 @@
 body {
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   margin: 0;
@@ -29,14 +30,13 @@ a {
   padding: 12px;
   margin: 8px;
 }
-
-/*---------------------------section1----------------------------------*/
-.section1 {
+.section {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 80px;
 }
+/*---------------------------section1----------------------------------*/
 
 img {
   height: auto;
@@ -51,7 +51,7 @@ img {
   height: auto;
 }
 h2 {
-  font-size: 24px;
+  font-size: 48px;
 }
 button {
   height: 48px;
@@ -64,8 +64,27 @@ button {
 /*---------------------------------------------------------------------*/
 .section2 {
   background-color: chocolate;
+  display: flex;
+  flex-direction: column;
 }
+.elements {
+  display: flex;
+  justify-content: space-around;
 
+  gap: 32px;
+}
+.element {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 250px;
+  width: 250px;
+}
+.element-img {
+  height: 200px;
+  width: 200px;
+}
+/*---------------------------------------------------------------------*/
 .section3 {
   background-color: green;
 }
