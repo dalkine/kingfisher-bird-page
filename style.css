@@ -1,0 +1,19 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+.section1 {
+  background-color: aqua;
+}
+.section2 {
+  background-color: chocolate;
+}
+
+.section3 {
+  background-color: green;
+}
+.section4 {
+  background-color: blueviolet;
+}
